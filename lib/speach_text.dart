@@ -13,19 +13,9 @@ class SpeachText extends StatefulWidget {
 class _SpeachTextState extends State<SpeachText> {
   List<String> wordsList = [
     "kitchen",
-    "cooking area",
-    "kitchenette",
-    "cookery",
     "bathroom",
-    "restroom",
-    "toilet",
-    "washroom",
     "meeting room",
-    "boardroom",
-    "assembly room",
-    "hall",
-    "hr room ",
-    "hr"
+    "hr room "
   ];
 
   Map<String, String> synonymsMap = {}; // New map to store synonyms
